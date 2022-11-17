@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ServletComponentScan
 @EnableTransactionManagement
 public class ReggieTakeOutApplication {
-
+///
     public static void main(String[] args) {
         log.info("项目启动成功!");
         SpringApplication.run(ReggieTakeOutApplication.class, args);
