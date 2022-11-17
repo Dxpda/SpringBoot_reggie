@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class ReggieTakeOutApplication {
     public static void main(String[] args) {
+        //在远程仓库进行了修改~~
         log.info("项目启动成功!");
         SpringApplication.run(ReggieTakeOutApplication.class, args);
     }
